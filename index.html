@@ -93,7 +93,149 @@ nav a{margin:0 6px;font-size:12px}
 </div>
 </section>
 
-<section id="education">
+
+<section id="education" class="education-section">
+  <div class="section-heading">
+    <span class="small-title">MY EDUCATION</span>
+    <h2>ประวัติการศึกษา</h2>
+    <p>เส้นทางการเรียนรู้และการเติบโตของฉัน</p>
+  </div>
+
+  <div class="education-list">
+
+    <div class="education-card">
+      <div class="education-icon">🎒</div>
+      <div class="education-info">
+        <span class="education-level">PRIMARY SCHOOL</span>
+        <h3>ระดับประถมศึกษา</h3>
+        <p>โรงเรียนบ้านวังตลับ</p>
+      </div>
+    </div>
+
+    <div class="education-card">
+      <div class="education-icon">📚</div>
+      <div class="education-info">
+        <span class="education-level">JUNIOR HIGH SCHOOL</span>
+        <h3>ระดับมัธยมศึกษาตอนต้น</h3>
+        <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์รัชมังคลาภิเษก</p>
+      </div>
+    </div>
+
+    <div class="education-card">
+      <div class="education-icon">🎓</div>
+      <div class="education-info">
+        <span class="education-level">SENIOR HIGH SCHOOL</span>
+        <h3>ระดับมัธยมศึกษาตอนปลาย</h3>
+        <p>โรงเรียนทุ่งใหญ่เฉลิมราชอนุสรณ์รัชมังคลาภิเษก</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<style>
+.education-section {
+  padding: 70px 20px;
+  background: #fff7fa;
+}
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.small-title {
+  color: #d77c9e;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.section-heading h2 {
+  color: #a84e73;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.section-heading p {
+  color: #997b87;
+}
+
+.education-list {
+  max-width: 750px;
+  margin: auto;
+  display: grid;
+  gap: 20px;
+}
+
+.education-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  background: white;
+  border: 1px solid #f4d5e1;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(190, 105, 140, 0.08);
+  transition: 0.3s;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(190, 105, 140, 0.15);
+}
+
+.education-icon {
+  width: 65px;
+  height: 65px;
+  min-width: 65px;
+  display: grid;
+  place-items: center;
+  background: #ffe6ef;
+  border-radius: 18px;
+  font-size: 30px;
+}
+
+.education-level {
+  color: #d77c9e;
+  font-size: 11px;
+  letter-spacing: 1.5px;
+}
+
+.education-info h3 {
+  color: #a84e73;
+  margin: 7px 0;
+  font-size: 18px;
+}
+
+.education-info p {
+  color: #806b75;
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 500px) {
+  .education-card {
+    padding: 18px;
+    gap: 13px;
+  }
+
+  .education-icon {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+    font-size: 24px;
+  }
+
+  .education-info h3 {
+    font-size: 16px;
+  }
+
+  .education-info p {
+    font-size: 13px;
+  }
+}
+</style>
+
 <div class="heading">
 <h2>EDUCATION</h2>
 <p>ประวัติการศึกษา</p>
