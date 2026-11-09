@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tanatcha | My Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:'Kanit',sans-serif;background:#fff8fa;color:#59434d}
+nav{position:sticky;top:0;z-index:10;background:#fff;
+display:flex;justify-content:space-between;align-items:center;
+padding:17px 7%;box-shadow:0 3px 15px #f1dce4}
+.logo{font-size:22px;font-weight:700;color:#d47798}
+nav a{text-decoration:none;color:#87576b;margin-left:16px;font-size:14px}
+.hero{background:linear-gradient(135deg,#fbdce7,#d985a4);
+color:white;text-align:center;padding:75px 20px 85px}
+.profile-photo{width:165px;height:165px;object-fit:cover;
+border-radius:50%;border:6px solid white;box-shadow:0 5px 20px #b86c8b}
+.hero h1{font-size:36px;margin-top:20px}
+.hero p{margin-top:8px}
+.btn{display:inline-block;margin-top:22px;background:white;
+color:#c76d90;text-decoration:none;padding:11px 27px;border-radius:30px}
+section{max-width:1000px;margin:65px auto;padding:0 22px}
+.heading{text-align:center;margin-bottom:28px}
+.heading h2{color:#d47798;font-size:30px}
+.heading p{color:#b58b9b}
+.card{background:white;border-radius:22px;padding:30px;
+box-shadow:0 5px 25px #f1dce5;margin-bottom:20px}
+.about{text-align:center;line-height:2}
+.info{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:20px}
+.info div{background:#fff0f5;padding:17px;border-radius:14px}
+.info b{color:#ce7092}
+.timeline{border-left:3px solid #e9b2c6;padding-left:24px;margin-left:15px}
+.timeline div{margin-bottom:27px}
+.timeline h3{color:#cf7595}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.activity{background:white;padding:25px;border-radius:20px;
+box-shadow:0 5px 20px #f1dce5;border:1px solid #ffe5ed}
+.activity .emoji{font-size:35px}
+.activity h3{color:#ce7092;margin:10px 0}
+.activity p{line-height:1.7}
+.skills{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.skills span{background:#ffe7ef;color:#b85f81;padding:12px 20px;border-radius:30px}
+.certificate{width:100%;border-radius:12px;object-fit:cover;margin-top:12px}
+.contact{text-align:center;line-height:2.3}
+footer{background:#ce7897;color:white;text-align:center;padding:30px}
+@media(max-width:650px){
+nav{flex-direction:column;gap:12px}
+nav a{margin:0 6px;font-size:12px}
+.hero h1{font-size:27px}
+.info,.grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">TANATCHA.</div>
+<div>
+<a href="#about">About</a>
+<a href="#education">Education</a>
+<a href="#activities">Activities</a>
+<a href="#certificates">Awards</a>
+</div>
+</nav>
+
+<header class="hero">
+<img class="profile-photo" src="รูป-1007.jpeg" alt="Profile">
+<h1>Tanatcha Khwanmanee</h1>
+<p>MY PORTFOLIO | M.6/1</p>
+<p>แฟ้มสะสมผลงานเพื่อการศึกษาต่อ</p>
+<a class="btn" href="#about">EXPLORE MY PROFILE ♡</a>
+</header>
+
+<section id="about">
+<div class="heading">
+<h2>ABOUT ME</h2>
+<p>ประวัติส่วนตัว</p>
+</div>
+<div class="card about">
+<h2>สวัสดีค่ะ ♡</h2>
+<p>ยินดีต้อนรับเข้าสู่เว็บไซต์แฟ้มสะสมผลงานของฉัน</p>
+<p>เว็บไซต์นี้จัดทำขึ้นเพื่อรวบรวมประวัติส่วนตัว ประวัติการศึกษา กิจกรรม และผลงานที่แสดงถึงความสามารถและประสบการณ์ของฉัน</p>
+<div class="info">
+<div><b>ชื่อ-นามสกุล</b><br>Tanatcha Khwanmanee</div>
+<div><b>ระดับชั้น</b><br>มัธยมศึกษาปีที่ 6/1</div>
+<div><b>งานอดิเรก</b><br>เรียนรู้สิ่งใหม่ ๆ</div>
+<div><b>ความสนใจ</b><br>การศึกษาและพัฒนาตนเอง</div>
+</div>
+</div>
+</section>
+
+<section id="education">
+<div class="heading">
+<h2>EDUCATION</h2>
+<p>ประวัติการศึกษา</p>
+</div>
+<div class="card">
+<div class="timeline">
+<div><h3>ระดับประถมศึกษา</h3><p>ใส่ชื่อโรงเรียน</p></div>
+<div><h3>ระดับมัธยมศึกษาตอนต้น</h3><p>ใส่ชื่อโรงเรียน</p></div>
+<div><h3>ระดับมัธยมศึกษาตอนปลาย</h3><p>ใส่ชื่อโรงเรียนปัจจุบัน</p></div>
+</div>
+</div>
+</section>
+
+<section id="activities">
+<div class="heading">
+<h2>ACTIVITIES</h2>
+<p>กิจกรรมและประสบการณ์</p>
+</div>
+<div class="grid">
+<div class="activity"><div class="emoji">🌱</div><h3>กิจกรรมปลูกป่า</h3><p>เข้าร่วมกิจกรรมอนุรักษ์ธรรมชาติและสิ่งแวดล้อม</p></div>
+<div class="activity"><div class="emoji">🎤</div><h3>ฝ่ายสันทนาการ</h3><p>ร่วมสร้างความสนุกสนานและความสามัคคีในโรงเรียน</p></div>
+<div class="activity"><div class="emoji">🏫</div><h3>กิจกรรมสภานักเรียน</h3><p>ร่วมกิจกรรมพัฒนาโรงเรียนและชุมชน</p></div>
+<div class="activity"><div class="emoji">🤝</div><h3>จิตอาสา</h3><p>ทำกิจกรรมเพื่อสังคมและส่วนรวม</p></div>
+</div>
+</section>
+
+<section id="certificates">
+<div class="heading">
+<h2>CERTIFICATES</h2>
+<p>เกียรติบัตรและความภาคภูมิใจ</p>
+</div>
+<div class="card about">
+<p>พื้นที่รวบรวมเกียรติบัตรและผลงานของฉัน</p>
+<p>สามารถเพิ่มรูปเกียรติบัตรของตัวเองในส่วนนี้ได้</p>
+</div>
+</section>
+
+<section id="skills">
+<div class="heading">
+<h2>MY SKILLS</h2>
+<p>ความสามารถและทักษะ</p>
+</div>
+<div class="card">
+<div class="skills">
+<span>Communication</span>
+<span>Teamwork</span>
+<span>Creativity</span>
+<span>Leadership</span>
+<span>Problem Solving</span>
+</div>
+</div>
+</section>
+
+<section id="dream">
+<div class="heading">
+<h2>MY DREAM</h2>
+<p>ความฝันและเป้าหมาย</p>
+</div>
+<div class="card about">
+<h2>My Future ♡</h2>
+<p>มุ่งมั่นพัฒนาตนเอง เรียนรู้ประสบการณ์ใหม่ ๆ และก้าวไปสู่เป้าหมายที่ตั้งใจไว้</p>
+</div>
+</section>
+
+<section id="contact">
+<div class="heading">
+<h2>CONTACT</h2>
+<p>ช่องทางติดต่อ</p>
+</div>
+<div class="card contact">
+<p>ขอบคุณที่เข้ามาเยี่ยมชม Portfolio ของฉัน</p>
+<p>Tanatcha Khwanmanee</p>
+<p>M.6/1</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 TANATCHA PORTFOLIO</p>
+<p>Made with ♡</p>
+</footer>
+
+</body>
+</html>
